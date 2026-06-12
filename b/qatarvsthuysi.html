@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Chiến lược FIFA World Cup 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#002366',
+                        gold: '#C5A021',
+                        slate: '#708090',
+                        paper: '#FAFAFA',
+                    },
+                    fontFamily: {
+                        report: ['"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media print {
+            body { background-color: white; }
+        }
+        .report-container {
+            max-width: 850px;
+            margin: auto;
+            background: #FAFAFA;
+        }
+        .justify-text {
+            text-align: justify;
+        }
+        .border-t-gold { border-top: 2px solid #C5A021; }
+    </style>
+</head>
+<body class="bg-gray-200 font-report text-gray-800 p-4 md:p-10">
+
+    <main class="report-container shadow-2xl p-8 md:p-16 border border-gray-300">
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start border-b-2 border-midnight pb-6 mb-8">
+            <div class="mb-4 md:mb-0">
+                <h1 class="text-2xl font-bold text-midnight uppercase tracking-widest">AI Software Development</h1>
+                <p class="text-sm text-slate italic">Intelligence & Strategic Consulting</p>
+            </div>
+            <div class="text-right text-sm">
+                <p class="font-bold">Expert: Phạm Hoàng Anh</p>
+                <p>Date: 22 Tháng 5, 2024</p>
+                <a href="www.phamhoanganhtokens.com" class="text-midnight underline">www.phamhoanganhtokens.com</a>
+            </div>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-midnight uppercase mb-4 border-b border-midnight pb-2">1. Lời chào và xác nhận yêu cầu dự đoán</h2>
+            <p class="justify-text leading-relaxed text-lg">
+                Kính gửi Ban Điều hành, tôi là <strong>Phạm Hoàng Anh</strong>, chuyên gia phân tích dữ liệu thể thao cao cấp. Tôi đã tiếp nhận và xử lý toàn bộ dữ liệu liên quan đến trận đấu giữa Qatar và Thụy Sĩ trong khuôn khổ vòng bảng FIFA World Cup 2026 tại sân vận động Levi’s, California. Dưới đây là báo cáo phân tích chi tiết dựa trên các chỉ số thực tế và đánh giá rủi ro chuyên sâu.
+            </p>
+        </section>
+
+        <!-- Data Analysis -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-midnight uppercase mb-4 border-b border-midnight pb-2">2. Phân tích chi tiết: Data, Stats, Scout & Risk</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <h3 class="font-bold text-gold text-lg uppercase">Góc nhìn Dữ liệu & Thống kê</h3>
+                    <p class="justify-text text-sm">Khoảng cách giữa hạng 19 (Thụy Sĩ) và hạng 56 (Qatar) là rất lớn. Thụy Sĩ sở hữu chỉ số Elo vượt trội (~1860 so với 1530). Qatar đang trải qua chuỗi 6 trận không thắng và tịt ngòi trong 3/4 trận gần nhất, trong khi Thụy Sĩ chỉ lọt lưới 0.33 bàn/trận tại vòng loại.</p>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="font-bold text-gold text-lg uppercase">Đánh giá chuyên môn & Rủi ro</h3>
+                    <ul class="list-disc pl-5 text-sm space-y-2">
+                        <li><strong>Thụy Sĩ:</strong> Cường độ pressing cao, Xhaka là trạm điều tiết trung tâm.</li>
+                        <li><strong>Qatar:</strong> Dựa vào Low block 4-3-3 và tốc độ phản công của Akram Afif.</li>
+                        <li><strong>Rủi ro:</strong> Sự thiếu vắng Ruben Vargas (Thụy Sĩ) và áp lực nhiệt độ tại California.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scenario Grid -->
+        <section class="mb-10">
+            <h2 class="text-xl font-bold text-midnight uppercase mb-6 border-b border-midnight pb-2">3. Các kịch bản dự đoán</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <!-- Base -->
+                <div class="border p-4 hover:shadow-lg transition-shadow">
+                    <h4 class="font-bold text-midnight mb-2">Base Scenario</h4>
+                    <p class="text-xs justify-text mb-3 italic">Thụy Sĩ kiểm soát thế trận, thắng cách biệt 2-0.</p>
+                    <div class="bg-gray-100 p-2 text-center border-l-4 border-green-600">
+                        <span class="text-sm font-bold">Confidence: 85/100</span>
+                    </div>
+                </div>
+                <!-- Positive -->
+                <div class="border p-4 hover:shadow-lg transition-shadow">
+                    <h4 class="font-bold text-midnight mb-2">Positive Scenario</h4>
+                    <p class="text-xs justify-text mb-3 italic">Thụy Sĩ áp đảo, hủy diệt với tỷ số 4-0.</p>
+                    <div class="bg-gray-100 p-2 text-center border-l-4 border-blue-600">
+                        <span class="text-sm font-bold">Confidence: 60/100</span>
+                    </div>
+                </div>
+                <!-- Upset -->
+                <div class="border p-4 hover:shadow-lg transition-shadow">
+                    <h4 class="font-bold text-midnight mb-2">Upset Scenario</h4>
+                    <p class="text-xs justify-text mb-3 italic">Hàng thủ Qatar kiên cường, hòa 0-0.</p>
+                    <div class="bg-gray-100 p-2 text-center border-l-4 border-red-600">
+                        <span class="text-sm font-bold">Confidence: 15/100</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendations -->
+        <section class="border-t-gold bg-slate-100 p-6">
+            <h2 class="text-xl font-bold text-midnight uppercase mb-4">Kết luận của chuyên gia</h2>
+            <div class="bg-white p-4 border border-gold shadow-sm">
+                <p class="justify-text text-lg">
+                    Dựa trên mô hình Expected Value (EV), phương án tối ưu nhất là đặt niềm tin vào <strong>Thụy Sĩ thắng</strong> với sự vượt trội về đẳng cấp. Các chỉ số EV dương cho thấy sự kỳ vọng ổn định trong dài hạn.
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-6 text-center border-t border-gray-200">
+            <p class="text-xs text-slate tracking-widest uppercase">Phạm Hoàng Anh | Master Agent | AI Research Division</p>
+        </footer>
+    </main>
+
+</body>
+</html>

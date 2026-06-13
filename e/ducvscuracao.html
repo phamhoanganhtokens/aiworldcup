@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Phân Tích Chuyên Sâu World Cup 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        gold: '#C5A021',
+                        slate: '#708090',
+                        offwhite: '#FAFAFA'
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Times New Roman', Times, serif; }
+        .text-justify { text-align: justify; }
+        @media print {
+            body { background-color: white; }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 leading-relaxed py-12 px-4 md:px-20">
 
+    <div class="max-w-4xl mx-auto bg-offwhite p-10 md:p-16 shadow-2xl border-t-8 border-navy">
+        
+        <!-- Document Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start border-b-2 border-navy pb-8 mb-10">
+            <div class="mb-4 md:mb-0">
+                <h1 class="text-3xl font-bold text-navy uppercase tracking-tight">AI Software Development</h1>
+                <p class="text-slate italic">Intelligence Briefing Unit</p>
+            </div>
+            <div class="text-right text-sm">
+                <p><span class="font-bold">Expert:</span> Phạm Hoàng Anh</p>
+                <p><span class="font-bold">Date:</span> 13/06/2026</p>
+                <p><span class="font-bold">Website:</span> www.phamhoanganhtokens.com</p>
+            </div>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-navy mb-4 border-b border-gold inline-block">BÁO CÁO PHÂN TÍCH CHUYÊN SÂU WORLD CUP 2026</h2>
+            <div class="text-justify text-lg space-y-4">
+                <p>Xin chào, tôi là <strong>Phạm Hoàng Anh</strong>. Tôi đã tiếp nhận yêu cầu phân tích trận đấu giữa đội tuyển Đức và Curacao trong khuôn khổ vòng bảng World Cup 2026. Dưới đây là báo cáo chi tiết dựa trên sự phối hợp từ các bộ phận Dữ liệu, Thống kê, Trinh sát và Quản trị rủi ro.</p>
+            </div>
+        </section>
+
+        <!-- Data Analysis Section -->
+        <section class="mb-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="space-y-4">
+                <h3 class="font-bold text-navy uppercase border-b border-gray-300 pb-2">📊 Dữ liệu & Thống kê</h3>
+                <ul class="text-justify text-sm space-y-2">
+                    <li><strong>FIFA:</strong> Đức (10) vs Curacao (82).</li>
+                    <li><strong>Phong độ Đức:</strong> Thắng 5/6 gần nhất, trung bình 3.2 bàn/trận.</li>
+                    <li><strong>Phong độ Curacao:</strong> Vừa thua Scotland 1-4.</li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-navy uppercase border-b border-gray-300 pb-2">🔍 Trinh sát chuyên môn</h3>
+                <ul class="text-justify text-sm space-y-2">
+                    <li><strong>Đức:</strong> <em>Gegenpressing</em> cường độ cao, tận dụng Wirtz và Musiala.</li>
+                    <li><strong>Curacao:</strong> Hệ thống "xe buýt" của Dick Advocaat, kỳ vọng vào tốc độ của Tahith Chong.</li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-navy uppercase border-b border-gray-300 pb-2">⚠️ Rủi ro & Biến số</h3>
+                <ul class="text-justify text-sm space-y-2">
+                    <li><strong>Tổn thất:</strong> Thiếu vắng Gnabry (chấn thương).</li>
+                    <li><strong>Tâm lý:</strong> "Dớp" khởi đầu chậm của Đức tại các kỳ giải đấu lớn.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Scenario Grid -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold text-navy mb-6 border-b border-navy pb-2">2. KỊCH BẢN DỰ ĐOÁN & CHỈ SỐ EV</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse text-sm">
+                    <thead>
+                        <tr class="bg-gray-200 text-navy">
+                            <th class="border border-gray-300 p-3">Kịch bản</th>
+                            <th class="border border-gray-300 p-3">Chi tiết dự đoán</th>
+                            <th class="border border-gray-300 p-3">Confidence</th>
+                            <th class="border border-gray-300 p-3">EV Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-gray-300 p-3 font-bold">Base Case</td>
+                            <td class="border border-gray-300 p-3 text-justify">Đức thắng 2-0 hoặc 3-0. Áp đảo hoàn toàn nhưng không bùng nổ quá mức.</td>
+                            <td class="border border-gray-300 p-3 text-green-700 font-bold text-center">85%</td>
+                            <td class="border border-gray-300 p-3 text-center">High</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-3 font-bold">Positive Case</td>
+                            <td class="border border-gray-300 p-3 text-justify">Đức ghi bàn sớm và thắng 4-0 trở lên. Curacao vỡ trận sau hiệp 1.</td>
+                            <td class="border border-gray-300 p-3 text-blue-700 font-bold text-center">60%</td>
+                            <td class="border border-gray-300 p-3 text-center">Medium</td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-3 font-bold">Upset Case</td>
+                            <td class="border border-gray-300 p-3 text-justify">Curacao tử thủ thành công, kết quả 0-1 hoặc 0-0.</td>
+                            <td class="border border-gray-300 p-3 text-red-700 font-bold text-center">15%</td>
+                            <td class="border border-gray-300 p-3 text-center">Negative</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Final Recommendations -->
+        <section class="border-2 border-gold p-6 bg-gold/5 mb-8">
+            <h3 class="text-lg font-bold text-navy mb-2">Lời khuyên của chuyên gia</h3>
+            <p class="text-justify italic">Với đẳng cấp vượt trội, <strong>Đức</strong> sẽ giành trọn 3 điểm. Lựa chọn an toàn nhất là Đức thắng cách biệt ít nhất 2 bàn. Tuy nhiên, cần dè chừng sự thực dụng của HLV Dick Advocaat bên phía Curacao trong hiệp thi đấu thứ nhất.</p>
+        </section>
+
+        <footer class="text-center pt-8 border-t border-gray-200">
+            <p class="text-xs text-gray-500 uppercase tracking-widest">Master Agent: Phạm Hoàng Anh</p>
+        </footer>
+    </div>
+
+</body>
+</html>

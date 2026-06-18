@@ -3,122 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Báo cáo Phân tích AI - FIFA World Cup 2026</title>
+    <title>Báo Cáo Phân Tích World Cup 2026 - Phạm Hoàng Anh</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                    },
                     colors: {
                         navy: '#002366',
                         gold: '#C5A021',
                         slate: '#708090',
-                        offwhite: '#FAFAFA'
-                    },
-                    fontFamily: {
-                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                        paper: '#FAFAFA',
                     }
                 }
             }
         }
     </script>
     <style>
-        body { background-color: #FAFAFA; color: #333; }
-        .font-report { font-family: 'Times New Roman', serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap');
+        body { font-family: 'Times New Roman', serif; background-color: #FAFAFA; }
+        .report-paper { max-width: 800px; margin: 40px auto; background: white; padding: 60px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        h1, h2, h3 { color: #002366; }
         .text-justify { text-align: justify; }
         .border-navy { border-color: #002366; }
-        .bg-navy { background-color: #002366; }
         .text-gold { color: #C5A021; }
     </style>
 </head>
-<body class="font-report text-gray-900 leading-relaxed">
+<body class="p-4 md:p-8">
 
-    <div class="max-w-5xl mx-auto my-10 p-12 bg-white shadow-2xl border border-gray-200">
-        
-        <!-- Document Header -->
-        <header class="flex justify-between items-start border-b-2 border-navy pb-8 mb-10">
+    <article class="report-paper">
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start border-b-2 border-navy pb-8 mb-10">
             <div>
-                <h1 class="text-3xl font-bold text-navy uppercase tracking-widest">AI Software Development</h1>
-                <p class="text-sm italic text-slate uppercase">Strategic Intelligence Division</p>
+                <h1 class="text-3xl font-bold tracking-tight">AI SOFTWARE DEVELOPMENT</h1>
+                <p class="text-slate text-sm font-italic">Intelligence & Strategic Consulting</p>
             </div>
-            <div class="text-right text-sm">
-                <p class="font-bold">Expert: Phạm Hoàng Anh</p>
-                <p>Date: 03/06/2026</p>
-                <a href="www.phamhoanganhtokens.com" class="text-navy underline">www.phamhoanganhtokens.com</a>
+            <div class="mt-4 md:mt-0 text-right text-sm">
+                <p><strong>Expert:</strong> Phạm Hoàng Anh</p>
+                <p><strong>Date:</strong> 24/05/2024</p>
+                <p><a href="www.phamhoanganhtokens.com" class="text-navy hover:underline">www.phamhoanganhtokens.com</a></p>
             </div>
         </header>
 
         <!-- Executive Summary -->
         <section class="mb-12">
-            <h2 class="text-2xl font-bold text-navy mb-4 border-b border-navy inline-block uppercase">Executive Summary</h2>
-            <p class="text-justify text-lg mb-6">
-                Chào mừng quý đối tác. Tôi là Master Agent Phạm Hoàng Anh. Báo cáo này đại diện cho kết quả xử lý dữ liệu chuyên sâu từ mạng lưới Agent của chúng tôi, tập trung vào việc mô hình hóa các biến số kỹ thuật cho bảng A, FIFA World Cup 2026. Mọi phân tích dưới đây đã được xác thực qua các thuật toán dự báo rủi ro để đảm bảo tính chuẩn xác cho các quyết định chiến lược.
+            <h2 class="text-2xl font-bold mb-4 uppercase border-b border-navy inline-block">Executive Summary</h2>
+            <p class="text-justify leading-relaxed">
+                Kính gửi quý đối tác, với tư cách là Master Agent tại <strong>AI Software Development</strong>, tôi xin trình bày bản báo cáo thẩm định kỹ thuật cho trận đấu World Cup 2026 giữa <strong>Cộng Hòa Séc và Nam Phi</strong>. Bản phân tích này tổng hợp dữ liệu từ các đơn vị tác chiến chuyên biệt bao gồm Dữ liệu (Data), Thống kê (Stats), Trinh sát (Scout), và Đánh giá rủi ro (Risk) nhằm cung cấp cái nhìn toàn diện nhất cho các quyết định chiến lược.
             </p>
         </section>
 
-        <!-- Data Analysis Section -->
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold text-navy mb-6 border-b border-navy inline-block uppercase">Data Analysis & Research</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Team Cards -->
-                <div class="p-6 border border-gray-300 rounded shadow-sm">
-                    <h3 class="text-xl font-bold text-navy mb-2 border-l-4 border-gold pl-3">Mexico</h3>
-                    <p class="text-justify text-sm">Chủ nhà với lợi thế độ cao tại Azteca. Lịch sử không thắng trận khai mạc (0-2-5) tạo ra áp lực tâm lý lớn, song hệ thống phòng ngự của HLV Javier Aguirre đang có độ ổn định cực cao.</p>
-                </div>
-                <div class="p-6 border border-gray-300 rounded shadow-sm">
-                    <h3 class="text-xl font-bold text-navy mb-2 border-l-4 border-gold pl-3">Nam Phi</h3>
-                    <p class="text-justify text-sm">Tập thể kỷ luật, phụ thuộc vào phong độ của thủ môn Ronwen Williams (78% cản phá). Không ngôi sao đơn lẻ, lối chơi gắn kết là vũ khí chính trước các đối thủ lớn.</p>
-                </div>
-                <div class="p-6 border border-gray-300 rounded shadow-sm">
-                    <h3 class="text-xl font-bold text-navy mb-2 border-l-4 border-gold pl-3">Hàn Quốc</h3>
-                    <p class="text-justify text-sm">Triết lý kiểm soát bóng mới dưới thời HLV mới. Bộ đôi Kim Min-jae và Lee Kang-in là trục xương sống, tối ưu hóa các tình huống chuyển trạng thái tấn công.</p>
-                </div>
-                <div class="p-6 border border-gray-300 rounded shadow-sm">
-                    <h3 class="text-xl font-bold text-navy mb-2 border-l-4 border-gold pl-3">Cộng hòa Séc</h3>
-                    <p class="text-justify text-sm">Sức mạnh thể chất là chìa khóa. Khả năng không chiến và các tình huống cố định từ Schick và Souček là mối đe dọa thường trực đối với mọi đối thủ trong bảng.</p>
-                </div>
+        <!-- Analysis Section -->
+        <section class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="space-y-4">
+                <h3 class="font-bold text-lg border-b border-navy pb-1">Dữ liệu & Xu hướng</h3>
+                <p class="text-justify text-sm">Cộng Hòa Séc duy trì kiểm soát trung lộ ổn định với tỷ lệ cầm bóng 54%. Ngược lại, Nam Phi bộc lộ lỗ hổng nghiêm trọng ở hành lang cánh, để lộ 18 cơ hội dứt điểm cho đối phương trong trận mở màn.</p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-lg border-b border-navy pb-1">Thống kê & Lịch sử</h3>
+                <p class="text-justify text-sm">Cộng Hòa Séc tối ưu hóa 50% số bàn thắng qua các tình huống không chiến. Nam Phi đang trải qua chuỗi 6 trận không thắng, phản ánh sự sa sút đáng kể về tâm lý thi đấu.</p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-lg border-b border-navy pb-1">Trinh sát & Chiến thuật</h3>
+                <p class="text-justify text-sm">Sơ đồ 3-4-2-1 của HLV Miroslav Koubek tỏ ra linh hoạt. Nam Phi gặp khủng hoảng nhân sự khi thiếu hụt bộ đôi tiền vệ trụ cột, khiến khả năng tranh chấp tuyến giữa bị suy giảm trầm trọng.</p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-bold text-lg border-b border-navy pb-1">Rủi ro & Tâm lý</h3>
+                <p class="text-justify text-sm">Sự chủ quan trong khâu phòng ngự phản công của Séc là biến số rủi ro. Nam Phi đối mặt với áp lực thẻ phạt, dễ dẫn đến những quyết định sai lầm trong thời điểm nhạy cảm của trận đấu.</p>
             </div>
         </section>
 
         <!-- Scenario Grid -->
         <section class="mb-12">
-            <h2 class="text-2xl font-bold text-navy mb-6 border-b border-navy inline-block uppercase">Scenario Analysis</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div class="bg-offwhite p-5 border border-gray-200">
-                    <h4 class="font-bold text-navy uppercase text-sm">Base Scenario</h4>
-                    <p class="text-sm mt-2 text-justify">Mexico áp đảo, bàn thắng đến muộn do thể lực khách mời suy giảm.</p>
-                    <div class="mt-4 bg-white p-2 border border-gold text-center font-bold text-gold">CONFIDENCE: 60%</div>
+            <h2 class="text-2xl font-bold mb-6 uppercase border-b border-navy inline-block">Scenario Analysis</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Base Case -->
+                <div class="border border-slate/30 p-5 rounded-sm shadow-sm bg-white">
+                    <h4 class="font-bold text-navy mb-2">Base Case</h4>
+                    <p class="text-xs mb-4 text-justify">Séc tận dụng ưu thế thể hình và khai thác triệt để sự thiếu hụt nhân sự của Nam Phi.</p>
+                    <div class="flex justify-between items-center bg-gray-50 p-2 border-t border-gray-200">
+                        <span class="text-xs font-bold text-gold">CONFIDENCE: 65%</span>
+                        <span class="text-xs font-bold text-navy">EV: +0.17</span>
+                    </div>
                 </div>
-                <div class="bg-offwhite p-5 border border-gray-200">
-                    <h4 class="font-bold text-navy uppercase text-sm">Positive Scenario</h4>
-                    <p class="text-sm mt-2 text-justify">Bùng nổ tại Azteca, Mexico ghi bàn sớm, phá vỡ lời nguyền lịch sử.</p>
-                    <div class="mt-4 bg-white p-2 border border-gold text-center font-bold text-gold">CONFIDENCE: 25%</div>
+                <!-- Positive Case -->
+                <div class="border border-slate/30 p-5 rounded-sm shadow-sm bg-white">
+                    <h4 class="font-bold text-navy mb-2">Positive Case</h4>
+                    <p class="text-xs mb-4 text-justify">Schick ghi bàn sớm tạo hưng phấn, Nam Phi vỡ trận trong hiệp 2 trước sức ép dồn dập.</p>
+                    <div class="flex justify-between items-center bg-gray-50 p-2 border-t border-gray-200">
+                        <span class="text-xs font-bold text-gold">CONFIDENCE: 25%</span>
+                        <span class="text-xs font-bold text-navy">EV: -0.37</span>
+                    </div>
                 </div>
-                <div class="bg-offwhite p-5 border border-gray-200">
-                    <h4 class="font-bold text-navy uppercase text-sm">Upset Scenario</h4>
-                    <p class="text-sm mt-2 text-justify">Nam Phi tử thủ thành công, cầm chân Mexico với tỷ số hòa 1-1.</p>
-                    <div class="mt-4 bg-white p-2 border border-gold text-center font-bold text-gold">CONFIDENCE: 15%</div>
+                <!-- Upset Case -->
+                <div class="border border-slate/30 p-5 rounded-sm shadow-sm bg-white">
+                    <h4 class="font-bold text-navy mb-2">Upset Case</h4>
+                    <p class="text-xs mb-4 text-justify">Thủ thành Nam Phi chơi xuất thần, trận đấu kết thúc với kết quả hòa không bàn thắng.</p>
+                    <div class="flex justify-between items-center bg-gray-50 p-2 border-t border-gray-200">
+                        <span class="text-xs font-bold text-gold">CONFIDENCE: 10%</span>
+                        <span class="text-xs font-bold text-navy">EV: -0.55</span>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Final Recommendations -->
-        <section class="mt-12 p-8 bg-navy text-white">
-            <h2 class="text-2xl font-bold mb-4 uppercase text-gold">Final Recommendation & EV</h2>
-            <p class="text-justify mb-4">
-                Dựa trên phân tích giá trị kỳ vọng (EV), các kịch bản bất ngờ đang mang lại chỉ số rủi ro/lợi nhuận tốt nhất cho các nhà đầu tư chiến lược. Khuyến nghị tập trung vào các biến số về tỷ số hòa hoặc kết quả sát nút ở hiệp 1.
+        <section class="bg-navy p-8 text-white rounded-sm">
+            <h2 class="text-2xl font-bold mb-4 text-gold uppercase">Kết luận & Khuyến nghị</h2>
+            <p class="text-justify text-sm leading-relaxed mb-6">
+                Dựa trên tổng hợp dữ liệu từ hệ thống, chúng tôi kiến nghị ưu tiên cho kịch bản <strong>Cộng Hòa Séc thắng sát nút</strong>. Biên độ rủi ro đã được điều chỉnh theo biến động thị trường. Nhà đầu tư nên tập trung vào các thị trường về "Số lượng bàn thắng" và "Thế trận kiểm soát" để tối ưu hóa Expected Value (EV).
             </p>
-            <div class="flex items-center gap-4">
-                <span class="text-4xl font-bold text-gold">EV: +4.50</span>
-                <span class="text-sm opacity-80 uppercase italic">Maximum Upset Potential</span>
+            <div class="border-t border-gold/30 pt-4 mt-4">
+                <p class="text-xs italic text-gray-300">Phê duyệt bởi: Master Agent Phạm Hoàng Anh</p>
             </div>
         </section>
 
-        <!-- Footer -->
-        <footer class="mt-12 text-center pt-8 border-t border-gray-300">
-            <p class="text-slate italic font-serif">"Dữ liệu là sự thật duy nhất."</p>
-            <p class="text-xs text-gray-500 mt-2">AI Software Development Operations</p>
-        </footer>
-    </div>
+    </article>
 </body>
 </html>

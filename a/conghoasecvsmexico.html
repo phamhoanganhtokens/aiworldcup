@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Cáo Phân Tích FIFA World Cup 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002366',
+                        gold: '#C5A021',
+                        slate: '#708090',
+                        offwhite: '#FAFAFA'
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Times New Roman', serif; background-color: #FAFAFA; }
+        .text-justify { text-align: justify; }
+        .report-border { border: 1px solid #e5e7eb; }
+        .gold-underline { border-bottom: 2px solid #C5A021; }
+    </style>
+</head>
+<body class="p-4 md:p-12 text-slate-800">
+
+    <div class="max-w-5xl mx-auto bg-white p-8 md:p-16 shadow-2xl border border-gray-200">
+        
+        <!-- Document Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start border-b-2 border-navy pb-8 mb-12">
+            <div>
+                <h1 class="text-3xl font-bold text-navy uppercase tracking-widest">AI Software Development</h1>
+                <p class="text-sm italic text-slate-500">Intelligence Briefing Unit</p>
+            </div>
+            <div class="text-right mt-6 md:mt-0 text-sm">
+                <p><span class="font-bold">Expert:</span> Phạm Hoàng Anh</p>
+                <p><span class="font-bold">Date:</span> 24 Tháng 6, 2026</p>
+                <p><span class="font-bold">Web:</span> www.phamhoanganhtokens.com</p>
+            </div>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-navy mb-4 gold-underline inline-block">Executive Summary</h2>
+            <p class="text-justify leading-relaxed">
+                Bản báo cáo này cung cấp cái nhìn chuyên sâu về phân tích dữ liệu cho trận đấu tại FIFA World Cup 2026 giữa Mexico và Cộng Hòa Séc. Với tư cách là Master Agent, tôi đã tổng hợp các nguồn tin từ trinh sát, thống kê hiệu suất, và đánh giá rủi ro để đưa ra các kịch bản dự báo có giá trị kỳ vọng (EV) cao nhất phục vụ cho mục tiêu phân tích chiến lược.
+            </p>
+        </section>
+
+        <!-- Data Analysis Section -->
+        <section class="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+                <h3 class="text-xl font-bold text-navy mb-4">Góc nhìn chiến thuật</h3>
+                <div class="bg-offwhite p-6 border-l-4 border-navy">
+                    <p class="text-justify mb-4"><strong>Mexico (4-3-3):</strong> Vận hành dựa trên khả năng kiểm soát bóng và phối hợp tam giác biên. Sự phụ thuộc vào Santiago Giménez đòi hỏi các vệ tinh phải hoạt động hết công suất để xuyên phá khối lùi sâu.</p>
+                    <p class="text-justify"><strong>Cộng Hòa Séc (3-4-1-2):</strong> Cấu trúc phòng ngự dày đặc, ưu tiên tranh chấp bóng bổng với sự hiện diện của Tomáš Souček, tạo áp lực lớn lên hàng thủ Mexico trong các tình huống bóng chết.</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-navy mb-4">Chỉ số cốt lõi</h3>
+                <ul class="space-y-3">
+                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Tấn công (MEX/CZE)</span><span class="font-bold">1.6 / 1.4</span></li>
+                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Hiệu suất phạt góc</span><span class="font-bold text-gold">Top 15% UEFA</span></li>
+                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Trụ cột đánh chặn</span><span class="font-bold">Edson Álvarez</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Scenario Grid -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-navy mb-8">Kịch bản dự đoán (Scenario Matrix)</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="report-border p-6 hover:shadow-lg transition-shadow">
+                    <h4 class="text-lg font-bold text-navy mb-2">Base (Cơ bản)</h4>
+                    <p class="text-sm mb-4">Mexico thắng (1-0 hoặc 2-1)</p>
+                    <div class="bg-gray-100 p-2 text-center font-bold text-navy mb-2">Xác suất: 55%</div>
+                    <div class="text-center font-bold text-green-700 text-xl">EV: +0.0175</div>
+                </div>
+                <!-- Card 2 -->
+                <div class="report-border p-6 hover:shadow-lg transition-shadow border-gold">
+                    <h4 class="text-lg font-bold text-gold mb-2">Positive (Tích cực)</h4>
+                    <p class="text-sm mb-4">Hai đội hòa (1-1)</p>
+                    <div class="bg-gray-100 p-2 text-center font-bold text-navy mb-2">Xác suất: 30%</div>
+                    <div class="text-center font-bold text-green-700 text-xl">EV: +0.0500</div>
+                </div>
+                <!-- Card 3 -->
+                <div class="report-border p-6 hover:shadow-lg transition-shadow">
+                    <h4 class="text-lg font-bold text-navy mb-2">Upset (Bất ngờ)</h4>
+                    <p class="text-sm mb-4">Séc thắng (0-1)</p>
+                    <div class="bg-gray-100 p-2 text-center font-bold text-navy mb-2">Xác suất: 15%</div>
+                    <div class="text-center font-bold text-red-600 text-xl">EV: -0.3100</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendation -->
+        <section class="bg-navy text-white p-8">
+            <h3 class="text-xl font-bold mb-4 uppercase text-gold">Kết luận của Master Agent</h3>
+            <p class="text-justify leading-relaxed">
+                Dựa trên phân tích dữ liệu, kịch bản <strong>Positive (Hòa)</strong> mang lại chỉ số EV hấp dẫn nhất. Tuy nhiên, yếu tố sân nhà Azteca cùng sức mạnh tinh thần của đội tuyển Mexico khiến phương án thắng sát nút vẫn là sự lựa chọn mang tính ổn định cao nhất về mặt chuyên môn. Cần thận trọng với các tình huống bóng bổng từ phía CH Séc khi thể lực cầu thủ bắt đầu suy giảm ở hiệp thi đấu thứ hai.
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>

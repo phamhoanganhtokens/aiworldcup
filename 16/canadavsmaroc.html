@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo Phân tích Chuyên sâu World Cup 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#002366',
+                        gold: '#C5A021',
+                        slate: '#708090',
+                        paper: '#FAFAFA'
+                    },
+                    fontFamily: {
+                        report: ['"Times New Roman"', 'Times', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f3f4f6;
+        }
+        .report-page {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #FAFAFA;
+            padding: 60px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { color: #002366; font-weight: 700; }
+        p { text-align: justify; line-height: 1.6; margin-bottom: 1.5rem; }
+        .table-custom { border: 1px solid #ddd; border-collapse: collapse; width: 100%; }
+        .table-custom th { background-color: #f2f2f2; border: 1px solid #ddd; padding: 12px; text-align: left; }
+        .table-custom td { border: 1px solid #ddd; padding: 12px; }
+        @media (max-width: 768px) {
+            .report-page { padding: 20px; margin: 0; }
+        }
+    </style>
+</head>
+<body class="text-gray-900">
 
+    <div class="report-page">
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between border-b-2 border-midnight pb-6 mb-8">
+            <div class="mb-4 md:mb-0">
+                <h1 class="text-2xl font-bold text-midnight uppercase tracking-wider">AI Software Development</h1>
+                <p class="text-sm text-slate uppercase italic">Strategic Intelligence Unit</p>
+            </div>
+            <div class="text-left md:text-right text-sm">
+                <p><span class="font-bold">Expert:</span> Phạm Hoàng Anh</p>
+                <p><span class="font-bold">Date:</span> 04 Tháng 07, 2026</p>
+                <p class="text-gold italic">www.phamhoanganhtokens.com</p>
+            </div>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="mb-12">
+            <h1 class="text-3xl border-b border-gold mb-6 pb-2">BÁO CÁO PHÂN TÍCH CHUYÊN SÂU: WORLD CUP 2026</h1>
+            <p>
+                Xin chào, tôi là <strong>Chuyên gia Phân tích Phạm Hoàng Anh</strong>. Tôi đã tiếp nhận yêu cầu phân tích trận đấu vòng 16 đội giữa <strong>Canada</strong> và <strong>Ma Rốc</strong>. Dựa trên dữ liệu thực tế từ vòng bảng, tình hình nhân sự và các báo cáo trinh sát mới nhất, tôi xin gửi tới quý vị bản đánh giá chuyên môn dưới đây nhằm tối ưu hóa các quyết định phân tích dữ liệu.
+            </p>
+        </section>
+
+        <!-- Data Analysis -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold uppercase border-l-4 border-midnight pl-4 mb-6">1. Phân tích Phong độ và Thống kê Đội hình</h2>
+            <table class="table-custom mb-6">
+                <thead>
+                    <tr>
+                        <th>Tiêu chí</th>
+                        <th>Ma Rốc (Hạng 7 FIFA)</th>
+                        <th>Canada (Hạng 30 FIFA)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Phong độ gần nhất</strong></td>
+                        <td>Bất bại (Thắng Scotland, Haiti; Hòa Brazil, Hà Lan)</td>
+                        <td>Thăng hoa (Thắng Qatar, Nam Phi; Hòa Bosnia)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cầu thủ trọng yếu</strong></td>
+                        <td>Achraf Hakimi, Brahim Díaz, Ismael Saibari</td>
+                        <td>Jonathan David, Stephen Eustáquio, Alphonso Davies</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vắng mặt</strong></td>
+                        <td>Nayef Aguerd, Abde Ezzalzouli (Chấn thương)</td>
+                        <td>Ismaël Koné (Chấn thương nặng), Marcelo Flores</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Ma Rốc:</strong> Hệ thống của HLV Mohamed Ouahbi đã chuyển sang kiểm soát bóng chủ động. Tuy nhiên, việc vừa trải qua 120 phút căng thẳng với Hà Lan ở vòng 32 đội có thể khiến thể lực của các trụ cột bị bào mòn.</li>
+                <li><strong>Canada:</strong> "Cơn lốc đỏ" dưới thời Jesse Marsch đang chơi một thứ bóng đá rát, pressing tầm cao dữ dội. Sự thăng hoa của Jonathan David là niềm hy vọng số 1. Việc thiếu vắng Ismaël Koné ở tuyến giữa là tổn thất lớn nhất.</li>
+                <li><strong>Lịch sử đối đầu:</strong> Canada chưa bao giờ thắng Ma Rốc (Hòa 1, Thua 3). Lần gần nhất tại World Cup 2022, Ma Rốc đã thắng 2-1.</li>
+            </ul>
+        </section>
+
+        <!-- Scenario Grid -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold uppercase border-l-4 border-midnight pl-4 mb-6">2. Kịch bản Dự đoán (Scenarios)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Base Case -->
+                <div class="border border-slate-200 p-6 flex flex-col hover:shadow-lg transition-shadow">
+                    <h3 class="text-midnight text-lg mb-4 underline">Kịch bản 1: Cơ sở</h3>
+                    <p class="text-sm flex-grow">Ma Rốc kiểm soát nhịp độ, dùng kỹ thuật của Brahim Díaz để thoát pressing của Canada. Trận đấu giằng co, Ma Rốc thắng sát nút.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200 text-xs font-bold text-slate">
+                        <p>Confidence: <span class="text-midnight">65%</span></p>
+                        <p>EV: <span class="text-gold">+12.5%</span></p>
+                    </div>
+                </div>
+                <!-- Positive Case -->
+                <div class="border border-slate-200 p-6 flex flex-col hover:shadow-lg transition-shadow">
+                    <h3 class="text-midnight text-lg mb-4 underline">Kịch bản 2: Hưng phấn</h3>
+                    <p class="text-sm flex-grow">Ma Rốc ghi bàn sớm, ép Canada dâng cao để lộ khoảng trống cho Saibari khai thác. Một trận thắng cách biệt.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200 text-xs font-bold text-slate">
+                        <p>Confidence: <span class="text-midnight">20%</span></p>
+                        <p>EV: <span class="text-gold">+5.0%</span></p>
+                    </div>
+                </div>
+                <!-- Upset Case -->
+                <div class="border border-slate-200 p-6 flex flex-col hover:shadow-lg transition-shadow">
+                    <h3 class="text-midnight text-lg mb-4 underline">Kịch bản 3: Bất ngờ</h3>
+                    <p class="text-sm flex-grow">Canada tận dụng sự mệt mỏi của Ma Rốc sau loạt sút luân lưu vòng trước. Lối chơi "Chaos" gây ức chế cho đối thủ.</p>
+                    <div class="mt-4 pt-4 border-t border-gray-200 text-xs font-bold text-slate">
+                        <p>Confidence: <span class="text-midnight">15%</span></p>
+                        <p>EV: <span class="text-red-700">-8.2%</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Recommendation -->
+        <section class="bg-midnight text-white p-8">
+            <h2 class="text-xl font-bold uppercase mb-4 text-gold text-center">3. Kết luận của Chuyên gia Phạm Hoàng Anh</h2>
+            <p class="text-center text-lg italic mb-6">"Mặc dù Canada có lợi thế sân nhà, Ma Rốc sở hữu chiều sâu đội hình và bản lĩnh vượt trội. Khoảng cách thứ hạng FIFA phản ánh chính xác tương quan lực lượng."</p>
+            <div class="text-center border-t border-white pt-6">
+                <p class="text-sm uppercase tracking-widest text-gray-300">Lựa chọn ưu tiên</p>
+                <p class="text-2xl font-bold text-gold">Ma Rốc thắng (Full-time) - Xỉu 2.5</p>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>

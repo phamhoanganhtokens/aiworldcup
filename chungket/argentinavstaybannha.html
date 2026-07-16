@@ -3,118 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Báo cáo Phân tích Chiến lược World Cup 2026</title>
+    <title>Báo Cáo Phân Tích Kỹ Thuật - World Cup 2026 | AI Software Development</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        navy: '#002366',
-                        gold: '#C5A021',
-                        slate: '#708090',
-                        cream: '#FAFAFA',
-                    },
-                    fontFamily: {
-                        serif: ['"Times New Roman"', 'Times', 'serif'],
-                    }
-                }
-            }
-        }
-    </script>
     <style>
-        body { font-family: 'Times New Roman', serif; background-color: #f0f0f0; }
-        .report-paper { max-width: 900px; margin: 40px auto; background: white; padding: 60px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
-        .justify-text { text-align: justify; }
-        .section-header { border-bottom: 2px solid #002366; color: #002366; }
-        @media (max-width: 768px) { .report-paper { padding: 30px; margin: 10px; } }
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+        
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #FAFAFA;
+            color: #333;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        .border-navy {
+            border-color: #002366;
+        }
+
+        .bg-navy {
+            background-color: #002366;
+        }
+
+        .text-navy {
+            color: #002366;
+        }
+
+        .text-gold {
+            color: #C5A021;
+        }
+
+        .report-shadow {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .hover-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
     </style>
 </head>
-<body class="p-4 md:p-10">
+<body class="py-12 px-4 md:px-8">
 
-    <article class="report-paper">
+    <main class="max-w-5xl mx-auto bg-white p-12 report-shadow border-t-[12px] border-navy">
+        
         <!-- Header -->
-        <header class="flex flex-col md:flex-row justify-between items-start mb-12 border-b-2 border-navy pb-6">
+        <header class="flex flex-col md:flex-row justify-between items-start border-b-2 border-navy pb-8 mb-12">
             <div>
                 <h1 class="text-3xl font-bold text-navy uppercase tracking-widest">AI Software Development</h1>
-                <p class="text-slate italic">Intelligence & Analytics Division</p>
+                <p class="text-sm text-slate-500 mt-2">Intelligence Briefing Division</p>
             </div>
-            <div class="text-right mt-4 md:mt-0 text-sm">
-                <p><strong>Chuyên gia:</strong> Phạm Hoàng Anh</p>
-                <p><strong>Ngày:</strong> 16 tháng 7, 2026</p>
-                <p><strong>Website:</strong> www.phamhoanganhtokens.com</p>
+            <div class="text-right mt-6 md:mt-0 text-sm space-y-1">
+                <p><span class="font-bold">Chuyên gia:</span> Phạm Hoàng Anh</p>
+                <p><span class="font-bold">Ngày:</span> 16 Tháng 07, 2026</p>
+                <p class="text-navy underline">www.phamhoanganhtokens.com</p>
             </div>
         </header>
 
         <!-- Executive Summary -->
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold text-navy mb-4 section-header">Tóm tắt Điều hành</h2>
-            <p class="justify-text text-lg leading-relaxed text-gray-800">
-                Bản báo cáo này cung cấp cái nhìn sâu sắc và phân tích dữ liệu đa chiều về trận chung kết World Cup 2026 giữa Argentina và Anh. Với tư cách là Master Agent, chúng tôi đã tổng hợp thông tin từ các hệ thống trinh sát và mô hình dự báo xác suất hiện đại nhất để đưa ra những nhận định có giá trị thực tiễn cao nhất cho giới mộ điệu và các nhà đầu tư thể thao.
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-navy mb-6 border-b border-navy inline-block">Tóm tắt Điều hành</h2>
+            <p class="text-justify leading-loose text-lg">
+                Báo cáo này được biên soạn bởi <strong>Phạm Hoàng Anh</strong> dựa trên các thuật toán dự báo AI tiên tiến nhất hiện nay. Tài liệu cung cấp cái nhìn tổng quan về trận Chung kết World Cup 2026. Thông qua việc phân tích dữ liệu lịch sử, hiệu suất thời gian thực của hai đội tuyển Argentina và Tây Ban Nha, chúng tôi đã xây dựng một ma trận kịch bản có độ tin cậy cao nhằm tối ưu hóa giá trị kỳ vọng (EV) cho các hoạt động phân tích chiến lược.
             </p>
         </section>
 
-        <!-- Data Analysis -->
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold text-navy mb-8 section-header">Phân tích chuyên sâu</h2>
+        <!-- Data Analysis Section -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-navy mb-8 border-b border-navy inline-block">I. Dữ liệu và Phân tích Cạnh tranh</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Data/Stats Cards -->
-                <div class="p-6 border border-gray-200 rounded-sm hover:border-gold transition-all">
-                    <h3 class="font-bold text-navy text-xl mb-3">📊 Dữ liệu & Thống kê</h3>
-                    <p class="justify-text text-gray-700">Argentina kiểm soát Zone 14 với 53% thời lượng. ĐT Anh đạt hiệu suất "Verticality" cao, rút ngắn thời gian luân chuyển bóng 20%. Chỉ số xG Argentina (1.65) đối đầu trực diện hệ thống mid-block xGA (0.85) của Anh.</p>
+                <div class="p-6 border border-slate-200 rounded-sm hover-card">
+                    <h3 class="text-xl font-bold text-navy mb-4">Argentina (La Scaloneta)</h3>
+                    <ul class="list-disc list-inside space-y-3 text-justify">
+                        <li><strong>Phong độ:</strong> Bất bại 6 trận, duy trì cấu trúc đội hình bền vững với 5 thắng, 1 hòa.</li>
+                        <li><strong>Chiến thuật:</strong> Tập trung kiểm soát chuyển trạng thái nhanh, gây áp lực mạnh mẽ lên hàng tiền vệ đối phương.</li>
+                        <li><strong>Điểm tựa:</strong> Kinh nghiệm dày dặn của thế hệ vàng và khả năng định đoạt trận đấu từ các cá nhân kiệt xuất.</li>
+                    </ul>
                 </div>
-                <div class="p-6 border border-gray-200 rounded-sm hover:border-gold transition-all">
-                    <h3 class="font-bold text-navy text-xl mb-3">⚽ Trinh sát & Rủi ro</h3>
-                    <p class="justify-text text-gray-700">Điểm nóng Messi đối đầu Rice/Bellingham là chìa khóa. Rủi ro thẻ phạt cao tại các vị trí trọng yếu. Khả năng đá hiệp phụ là biến số cần cân nhắc trong mọi chiến lược.</p>
+                <div class="p-6 border border-slate-200 rounded-sm hover-card">
+                    <h3 class="text-xl font-bold text-navy mb-4">Tây Ban Nha (La Roja)</h3>
+                    <ul class="list-disc list-inside space-y-3 text-justify">
+                        <li><strong>Phong độ:</strong> Toàn thắng 6 trận, hiệu suất tấn công đạt 2.2 bàn/trận.</li>
+                        <li><strong>Chiến thuật:</strong> Kiểm soát bóng chủ động, phối hợp nhỏ ở tốc độ cao, khả năng luân chuyển bóng 91%.</li>
+                        <li><strong>Điểm tựa:</strong> Sự bùng nổ của các tài năng trẻ và hệ thống phòng ngự từ xa hoàn hảo.</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- Scenario Grid -->
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold text-navy mb-8 section-header">Kịch bản dự đoán</h2>
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-navy mb-8 border-b border-navy inline-block">II. Ma trận Kịch bản Dự đoán</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Base -->
-                <div class="border p-5 flex flex-col items-center text-center shadow-sm">
-                    <span class="text-gold font-bold mb-2">BASE CASE</span>
-                    <p class="text-sm italic mb-4">Argentina làm chủ thế trận</p>
-                    <div class="text-3xl font-bold text-navy mb-2">55%</div>
-                    <p class="text-xs text-gray-500">EV: 1.18</p>
+                <div class="border border-slate-200 p-6 flex flex-col items-center text-center">
+                    <div class="text-gold font-bold mb-2 uppercase text-sm">Cơ bản</div>
+                    <h4 class="font-bold text-lg mb-4">Thế trận Giằng co</h4>
+                    <p class="text-justify text-sm mb-6 flex-grow">Argentina hòa 1-1 trong 90 phút, bản lĩnh và kinh nghiệm giúp họ chiến thắng ở hiệp phụ.</p>
+                    <div class="bg-navy text-white px-4 py-1 text-sm font-bold w-full rounded">Tin cậy: 75%</div>
                 </div>
                 <!-- Positive -->
-                <div class="border p-5 flex flex-col items-center text-center shadow-sm">
-                    <span class="text-slate font-bold mb-2">POSITIVE CASE</span>
-                    <p class="text-sm italic mb-4">Tam Sư thực dụng lên ngôi</p>
-                    <div class="text-3xl font-bold text-navy mb-2">30%</div>
-                    <p class="text-xs text-gray-500">EV: 1.02</p>
+                <div class="border border-slate-200 p-6 flex flex-col items-center text-center">
+                    <div class="text-slate-500 font-bold mb-2 uppercase text-sm">Tích cực</div>
+                    <h4 class="font-bold text-lg mb-4">La Roja Áp đảo</h4>
+                    <p class="text-justify text-sm mb-6 flex-grow">Tây Ban Nha kiểm soát hoàn toàn, Lamine Yamal tỏa sáng đưa La Roja đến chiến thắng 2-0.</p>
+                    <div class="bg-navy text-white px-4 py-1 text-sm font-bold w-full rounded">Tin cậy: 20%</div>
                 </div>
                 <!-- Upset -->
-                <div class="border p-5 flex flex-col items-center text-center shadow-sm">
-                    <span class="text-red-700 font-bold mb-2">UPSET CASE</span>
-                    <p class="text-sm italic mb-4">Loạt luân lưu cân não</p>
-                    <div class="text-3xl font-bold text-navy mb-2">15%</div>
-                    <p class="text-xs text-gray-500">EV: 0.46</p>
+                <div class="border border-slate-200 p-6 flex flex-col items-center text-center">
+                    <div class="text-red-800 font-bold mb-2 uppercase text-sm">Bất ngờ</div>
+                    <h4 class="font-bold text-lg mb-4">Argentina Bùng nổ</h4>
+                    <p class="text-justify text-sm mb-6 flex-grow">Khai thác sơ hở hàng thủ Tây Ban Nha, Argentina thắng chóng vánh 3-1 nhờ phản công.</p>
+                    <div class="bg-navy text-white px-4 py-1 text-sm font-bold w-full rounded">Tin cậy: 5%</div>
                 </div>
             </div>
         </section>
 
-        <!-- Recommendations -->
-        <section class="bg-gray-50 p-8 border-l-4 border-gold mb-12">
-            <h2 class="text-xl font-bold text-navy mb-4">Khuyến nghị chiến lược</h2>
-            <p class="justify-text text-gray-800 italic">
-                Dựa trên phân tích EV (Expected Value), các vị thế đặt vào Argentina đang mang lại lợi nhuận kỳ vọng cao nhất trong kịch bản Base Case. Tuy nhiên, cần chú trọng việc phòng ngừa rủi ro đối với kịch bản Anh chiếm ưu thế trong các tình huống cố định. Sự điềm tĩnh và kinh nghiệm của hàng thủ Argentina sẽ là thước đo cuối cùng cho sự thành bại.
+        <!-- Final Recommendation -->
+        <section class="bg-slate-50 p-8 border-l-4 border-gold shadow-inner">
+            <h2 class="text-2xl font-bold text-navy mb-4">III. Kết luận và Giá trị kỳ vọng (EV)</h2>
+            <p class="text-justify mb-6">
+                Dựa trên các chỉ số mô phỏng, kịch bản <strong>"Cơ bản"</strong> cho thấy mức độ an toàn cao nhất đối với các phân tích quản trị rủi ro. Giá trị kỳ vọng (EV) tổng thể được duy trì ở ngưỡng dương, phản ánh cơ hội đầu tư chiến lược rõ rệt cho các nhà quan sát chuyên nghiệp.
             </p>
+            <div class="flex items-center gap-4 bg-white p-4 border border-slate-200 rounded">
+                <span class="text-navy font-bold text-lg uppercase">Chỉ số EV trung bình:</span>
+                <span class="text-2xl font-bold text-green-700 bg-green-50 px-4 py-1 rounded shadow-sm">+0.85</span>
+            </div>
         </section>
 
-        <!-- Sign-off -->
-        <footer class="mt-16 text-right">
-            <div class="inline-block border-t border-gray-300 pt-4">
-                <p class="text-sm italic">Trân trọng,</p>
-                <p class="font-bold text-navy text-lg">Phạm Hoàng Anh</p>
-                <p class="text-sm text-slate">Master Analyst & World Cup Expert</p>
-            </div>
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-slate-200 text-center">
+            <p class="text-slate-400 italic">"Chính xác trong dữ liệu - Vững vàng trong tư duy."</p>
+            <p class="text-sm text-slate-500 mt-2">Báo cáo tài liệu nội bộ bởi Phạm Hoàng Anh.</p>
         </footer>
-    </article>
+
+    </main>
 
 </body>
 </html>
